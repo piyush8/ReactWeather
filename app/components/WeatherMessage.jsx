@@ -6,7 +6,7 @@ var WeatherMessage = ({temp, location}) => {
 
 
   return (
-    <h3>It {temp} in {location}.</h3>
+    <h3 className="text-center">It {temp} in {location}.</h3>
   )
 };
 
